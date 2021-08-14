@@ -4,21 +4,28 @@
   --primary-white: #fff;
   --primarty-dark: rgba(255, 255, 255, 0);
 
-  --primary-red: red;
   --prmary-orange: #f9ab00;
+
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 
-body{
+body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 
-/**************** NAVIGATION BAR **************/
+
+
+/**************** 1 - NAVIGATION BAR **************/
+
 /* Add Logo (if necessary) */
 
+nav {
+  z-index: 2;
+}
 
-/*********** MENU LINKS ***********/
 nav a.nav-link {
   font-weight: 100;
   letter-spacing: 0.0375rem;
@@ -50,4 +57,89 @@ a.navbar-brand {
 
 .navbar-nav > li > a:hover {
   border-top: 0.125rem solid var(--prmary-orange) !important;
+}
+
+
+
+
+/**************** 2 - HEADER **************/
+.header-wrapper {
+  position: relative;
+  background: url(./images/MainBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.header-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+}
+
+
+/**************** 2.1 - HEADER HEADING **************/
+.header-info h1 {
+  color: #f9ab00;
+  text-transform: uppercase;
+}
+
+
+/**************** 2.1 - AOI - TYPED TEXT **************/
+.areas-of-interest {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+.header-contact-me {
+  text-decoration: none;
+  border: 2px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.header-contact-me:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+@media(max-width: 768px) {
+  .header-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .areas-of-interest {
+    font-size: 1.3rem !important;
+  }
+}
+
+
+
+
+
+/**************** REACT PARTICLES **************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+
+@media(max-width: 768px) {
+  .particles-canvas{
+    display: none;
+  }
 }
