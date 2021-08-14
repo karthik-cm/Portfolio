@@ -111,7 +111,7 @@ a.navbar-brand {
 
 .header-contact-me:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: var(--primary-red);
   color: var(--primary-white);
   transition: .2s ease-in-out;
 }
