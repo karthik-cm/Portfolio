@@ -11,7 +11,7 @@ const Intro = () => {
 				<h1>Areas of Interest</h1>
 				<ReactTyped 
 					className="areas-of-interest" 
-					strings={["Full Stack Development", "Web Design", "Web Development", "Game Development"]}
+					strings={["Web Design", "Web Development", "Full Stack Development", "Game Development"]}
 					typeSpeed={50}
 					backSpeed={60}
 					loop
