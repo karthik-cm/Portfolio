@@ -1,0 +1,33 @@
+
+/**************** ABOUT ME **************/
+.profile-img {
+	width: 18rem;
+	border-radius: 50%;
+	padding: 0.2rem;
+	border: 1px solid var(--primary-orange);
+}
+  
+.profile-img-section {
+	text-align: center;
+}
+  
+.about-me-heading {
+	text-transform: uppercase;
+	color: var(--primary-orange);
+}
+  
+@media(max-width: 768px) {
+	.profile-img {
+	  width: 10rem;
+	}
+  
+	.about-me-heading {
+	  padding-top: 25px;
+	}
+  
+	.about-me-heading, .about-me-description {
+	  padding-left: 1rem;
+	  padding-right: 1rem;
+	  text-align: center;
+	}
+}

@@ -1,0 +1,39 @@
+/**************** 1 - NAVIGATION BAR **************/
+
+nav {
+	z-index: 2;
+}
+  
+nav a.nav-link {
+	font-weight: 100;
+	letter-spacing: 0.0375rem;
+	cursor: pointer;
+}
+  
+nav ul li {
+	text-transform: uppercase;
+}
+  
+.navbar-nav > li > a {
+	margin-right: 0.75rem;
+	margin-left: 0.75rem;
+	color: var(--primary-white) !important;
+	border-top: 0.125rem solid var(--primarty-dark) !important;
+}
+  
+a.navbar-brand {
+	font-weight: bold;
+	font-size: x-large;
+	max-width: 17.25rem;
+	padding: 0.5rem !important;
+	color: var(--primary-white) !important;
+}
+  
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+	border-top: 0.125rem solid var(--primary-orange) !important;
+}
+  
+.navbar-nav > li > a:hover {
+	border-top: 0.125rem solid var(--primary-orange) !important;
+}
+
