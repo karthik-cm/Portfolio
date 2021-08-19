@@ -4,9 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavigationBar from './Components/NavigationBar';
 import Intro from './Components/Intro';
-import ReactParticles from './Components/ReactParticles';
 
 import AboutMe from './Components/AboutMe';
+import Background from './Components/Background';
+
+import ReactParticles from './Components/ReactParticles';
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
       <NavigationBar />
       <Intro />
       <AboutMe />
+      <Background />
     </React.Fragment>
   );
 }

@@ -1,0 +1,15 @@
+/********************** Background - CSS ****************************/
+
+.Background {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Background title {
+    position: fixed;
+}

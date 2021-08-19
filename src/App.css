@@ -10,8 +10,18 @@
   --primary-hover-red: #f33501;
 }
 
-
 body {
   font-family: 'Roboto Condensed', sans-serif !important ;
+}
+
+.section-heading {
+  padding-top: 3rem;
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+}
+
+.section-border {
+  border-style: 2px solid var(--primary-orange);
 }
 

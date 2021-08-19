@@ -54,7 +54,7 @@
 	text-transform: uppercase;
 	color: var(--primary-white);
 
-	border: 2px solid var(--primary-red);
+	border: 2px solid red;
 	border-radius: 0;
 	padding: 0.625rem 0.75rem 0.75rem 0.75rem;
 	margin: 2rem;
@@ -64,7 +64,19 @@
 	text-decoration: none;
 	background-color: var(--primary-red);
 	color: var(--primary-white);
-	transition: .2s ease-in-out;
+	animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media(max-width: 768px) {
@@ -74,4 +86,15 @@
 	.areas-of-interest {
 		font-size: 1.3rem !important;
 	}
+}
+
+
+/**************** LinkedIn/ GitHub Section **************/
+.linkedin-logo, .github-logo {
+	width: 3.5rem;
+	background-color: white;
+}
+
+.linkedin-logo:hover, .github-logo:hover {
+	animation: enable 0.3s linear;
 }

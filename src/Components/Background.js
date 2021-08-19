@@ -1,52 +1,54 @@
 import React from 'react';
-import { Chrono } from 'react-chrono';
+// import { Chrono } from 'react-chrono';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import '../CSS/Background.css';
 
 
 const background = (props) => (
     <div className="Background">
+        <h1 className="section-heading">Background</h1>
+
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
-                contentArrowStyle={{ borderRight: '7px solid  white' }}
-                date="2019 - 2021"
+                contentArrowStyle={{ borderRight: '7px solid white' }}
+                date="2021 - 2023"
                 iconStyle={{ background: '#192841', color: '#fff', display:'none' }}
             // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">MS in Computer Science</h3>
-                <h4 className="vertical-timeline-element-subtitle">University at Buffalo</h4>
-                <p>
-                    Courses: Analysis of Algorithms, Object Oriented Analysis and Design,  Distributed Systems, Computer Vision and Image Processing, Information Retrieval, Machine Learning, Data Models and Query Languages, Data Intensive Computing
-                </p>
+                <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
+                <h4 className="vertical-timeline-element-subtitle">Santa Clara University</h4>
+                <p>Coursework: Operating Systems, Computer Architecture, Design and Analysis of Algorithms</p>
+                <p>Web Developer Intern at University Marketing and Communications (UMC) team </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
-                contentArrowStyle={{ borderRight: '7px solid  white' }}
-                date="2017 - 2019"
+                contentArrowStyle={{ borderRight: '7px solid white' }}
+                date="2016 - 2020"
                 iconStyle={{ background: '#192841', color: '#fff', display:'none' }}
             // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Software Developer</h3>
+                <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services</h4>
                 <p>
-                    J2EE, Spring Batch, JAX-WS Web Clients, Oracle SQL Developer
+                    JAVA, J2EE, Spring Framework (MVC / Batch), Oracle PL/SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
-                contentArrowStyle={{ borderRight: '7px solid  white' }}
-                date="2013 - 2017"
+                contentArrowStyle={{ borderRight: '7px solid white' }}
+                date="2012 - 2016"
                 iconStyle={{ background: '#192841', color: '#fff', display:'none' }}
             // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Bachelor of Technology</h3>
-                <h4 className="vertical-timeline-element-subtitle">SASTRA University</h4>
+                <h3 className="vertical-timeline-element-title">B.E in Information Science</h3>
+                <h4 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University</h4>
                 <p>
-                    Programming in C,C++, RDBMS, Unix Operating System
+                    Coursework: Design and Analysis of Algorithms, Data Structures with C, Database Management Systems, Operating Systems, JAVA and J2EE, Programming the Web
                 </p>
             </VerticalTimelineElement>
         </VerticalTimeline>
