@@ -11,10 +11,10 @@ const background = (props) => (
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element"
-                contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="2021 - 2023"
-                iconStyle={{ background: '#f9ab00', color: '#fff', display:'block' }}
+                iconStyle={{ background: '#000', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
@@ -25,10 +25,10 @@ const background = (props) => (
 
             <VerticalTimelineElement
                 className="vertical-timeline-element"
-                contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="2016 - 2020"
-                iconStyle={{ background: '#f9ab00', color: '#fff', display:'block' }}
+                iconStyle={{ background: '#000', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
@@ -40,11 +40,11 @@ const background = (props) => (
 
             <VerticalTimelineElement
                 className="vertical-timeline-element"
-                contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="2012 - 2016"
-                iconStyle={{ background: '#f9ab00', color: '#fff', display:'block' }}
-            // icon={<WorkIcon />}
+                iconStyle={{ background: '#000', color: '#fff', display:'block' }}
+            // icon={<WorkIcon />} f9ab00
             >
                 <h3 className="vertical-timeline-element-title">B.E in Information Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University</h4>

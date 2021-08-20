@@ -17,6 +17,7 @@ const AboutMe = () => {
 				<div className="about-me-main-text row pt-3">
 					<h2 className="fw-bold">KARTHIK CM</h2>
 					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
+					<h4 className="fw-bold pt-3">Actively looking for SDE Internship positions starting Summer 2022</h4>
 				</div>
 
 				<div className="col-md-6 col-xs- row profile-details-section pt-3">

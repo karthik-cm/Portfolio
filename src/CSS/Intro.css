@@ -100,6 +100,6 @@
 	background-color: #fff;
 }
 
-.linkedin-logo:hover, .github-logo:hover, .gmail-logo:hover {
+.linkedin-logo:hover, .github-logo:hover, .gmail-logo:hover, .my-resume:hover {
 	animation: enable 0.3s linear;
 }

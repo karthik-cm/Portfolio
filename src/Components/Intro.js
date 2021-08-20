@@ -1,5 +1,9 @@
 import React from 'react'
 import ReactTyped from 'react-typed';
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLinkedinIn} from '@fortawesome/free-brands-svg-icons';
+
 import '../CSS/Intro.css';
 
 import linkedinIcon from '../Logos/linkedin.svg';
@@ -7,7 +11,7 @@ import githubIcon from '../Logos/github.svg';
 import gmailIcon from '../Logos/gmail.svg';
 
 // Constants
-const AREAS_OF_INTEREST = ["Web Design", "Web Development", "Full Stack Development", "Game Development"];
+const AREAS_OF_INTEREST = ["A Java Geek", "Web Design", "Web Development", "Full Stack Development", "Game Development"];
 const RESUME_URL = 'https://drive.google.com/file/d/1nRd3bfDdp6DOBAGPs7bEvFO360V5Od0f/view';
 
 const Intro = () => {
@@ -17,6 +21,7 @@ const Intro = () => {
 				{/* <h1>Hey there, Welcome!</h1> */}
 
 				<h1>Areas of Interest</h1>
+
 				<ReactTyped 
 					className="areas-of-interest" 
 					strings={AREAS_OF_INTEREST}
