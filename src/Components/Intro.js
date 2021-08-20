@@ -4,6 +4,7 @@ import '../CSS/Intro.css';
 
 import linkedinIcon from '../Logos/linkedin.svg';
 import githubIcon from '../Logos/github.svg';
+import gmailIcon from '../Logos/gmail.svg';
 
 // Constants
 const AREAS_OF_INTEREST = ["Web Design", "Web Development", "Full Stack Development", "Game Development"];
@@ -38,6 +39,12 @@ const Intro = () => {
 					<span className="github-section">
 						<a href="https://www.github.com/karthik-cm/" target="_blank">
 							<img className="github-logo" src={githubIcon} />
+						</a>
+					</span>
+					<span style={{ paddingLeft: '2rem' }}></span>
+					<span className="gmail-section">
+						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=karthikcm.77@gmail.com" target="_blank">
+							<img className="gmail-logo" src={gmailIcon} />
 						</a>
 					</span>
 				</div>

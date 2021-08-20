@@ -89,12 +89,17 @@
 }
 
 
-/**************** LinkedIn/ GitHub Section **************/
-.linkedin-logo, .github-logo {
+/**************** LinkedIn / GitHub / Gmail Section **************/
+/*.social-media-section{
+	background-color: #fff;
+	padding: 0.5rem;
+}*/
+
+.linkedin-logo, .github-logo, .gmail-logo {
 	width: 3.5rem;
-	background-color: white;
+	background-color: #fff;
 }
 
-.linkedin-logo:hover, .github-logo:hover {
+.linkedin-logo:hover, .github-logo:hover, .gmail-logo:hover {
 	animation: enable 0.3s linear;
 }

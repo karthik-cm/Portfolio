@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Chrono } from 'react-chrono';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../CSS/Background.css';
@@ -15,34 +14,36 @@ const background = (props) => (
                 contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="2021 - 2023"
-                iconStyle={{ background: '#192841', color: '#fff', display:'none' }}
+                iconStyle={{ background: '#f9ab00', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Santa Clara University</h4>
                 <p>Coursework: Operating Systems, Computer Architecture, Design and Analysis of Algorithms</p>
-                <p>Web Developer Intern at University Marketing and Communications (UMC) team </p>
+                <p>Web Developer Intern at University Marketing and Communications team </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="2016 - 2020"
-                iconStyle={{ background: '#192841', color: '#fff', display:'none' }}
+                iconStyle={{ background: '#f9ab00', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services</h4>
                 <p>
-                    JAVA, J2EE, Spring Framework (MVC / Batch), Oracle PL/SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap
+                    JAVA, J2EE, Spring Framework (MVC / Batch / REST), Oracle PL/SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap
                 </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'1px solid white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="2012 - 2016"
-                iconStyle={{ background: '#192841', color: '#fff', display:'none' }}
+                iconStyle={{ background: '#f9ab00', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">B.E in Information Science</h3>

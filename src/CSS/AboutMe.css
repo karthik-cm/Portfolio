@@ -1,10 +1,21 @@
-
 /**************** ABOUT ME **************/
+.AboutMe {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
+}
+
+.about-me-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
 .profile-img {
 	width: 18rem;
 	border-radius: 50%;
 	padding: 0.2rem;
-	border: 1px solid var(--primary-orange);
+	border: 3px solid var(--primary-orange);
 }
   
 .profile-img-section {
@@ -15,6 +26,11 @@
 	text-transform: uppercase;
 	color: var(--primary-orange);
 }
+
+.about-me-main-text, .about-me-description {
+	color: #fff;
+}
+
   
 @media(max-width: 768px) {
 	.profile-img {
