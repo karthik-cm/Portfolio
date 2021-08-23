@@ -1,4 +1,4 @@
-/********************** Background - CSS ****************************/
+/********************** Background - CSS **********************/
 
 .Background {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
@@ -11,4 +11,16 @@
 
 .Background title {
     position: fixed;
+}
+
+/*** Vertical timeline line color ***/
+.vertical-timeline::before {
+    background: #f9ab00;
+}
+
+/*** ***/
+span.vertical-timeline-element-date {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
 }

@@ -16,7 +16,7 @@ const RESUME_URL = 'https://drive.google.com/file/d/1nRd3bfDdp6DOBAGPs7bEvFO360V
 
 const Intro = () => {
 	return (
-		<div className="intro-wrapper">
+		<div className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
 				{/* <h1>Hey there, Welcome!</h1> */}
 

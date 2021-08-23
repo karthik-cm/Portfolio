@@ -25,3 +25,7 @@ body {
   border-style: 2px solid var(--primary-orange);
 }
 
+/* Custome CSS */
+.padding-left-2 {
+  padding-left: 2rem;
+}

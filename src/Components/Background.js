@@ -5,14 +5,14 @@ import '../CSS/Background.css';
 
 
 const background = (props) => (
-    <div className="Background">
+    <div className="Background container-fluid">
         <h1 className="section-heading">Background</h1>
 
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element"
-                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid white' }}
-                contentArrowStyle={{ borderRight: '7px solid white' }}
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #fff' }}
                 date="2021 - 2023"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
@@ -25,8 +25,8 @@ const background = (props) => (
 
             <VerticalTimelineElement
                 className="vertical-timeline-element"
-                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid white' }}
-                contentArrowStyle={{ borderRight: '7px solid white' }}
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #fff' }}
                 date="2016 - 2020"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
             // icon={<WorkIcon />}
@@ -40,8 +40,8 @@ const background = (props) => (
 
             <VerticalTimelineElement
                 className="vertical-timeline-element"
-                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid white' }}
-                contentArrowStyle={{ borderRight: '7px solid white' }}
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #fff' }}
                 date="2012 - 2016"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
             // icon={<WorkIcon />} f9ab00

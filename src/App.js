@@ -7,8 +7,9 @@ import Intro from './Components/Intro';
 
 import AboutMe from './Components/AboutMe';
 import Background from './Components/Background';
+import Skills from './Components/Skills';
 
-import ReactParticles from './Components/ReactParticles';
+import ReactParticles from './Components/Generic/ReactParticles';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Intro />
       <AboutMe />
       <Background />
+      <Skills />
     </React.Fragment>
   );
 }

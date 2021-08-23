@@ -4,7 +4,7 @@ import '../CSS/AboutMe.css';
 
 const AboutMe = () => {
 	return (
-		<div className="AboutMe conatiner py-5">
+		<div className="AboutMe container-fluid py-5">
 			<div className="about-me-section justify-content-center">
 				<div className="row">
 					<h1 className="about-me-heading">About Me</h1>

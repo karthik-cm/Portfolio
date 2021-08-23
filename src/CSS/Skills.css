@@ -1,0 +1,25 @@
+/********************** Skills - CSS **********************/
+
+.Skills {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.card-body {
+    display: none;
+}
+
+
+
+/* Programming Section */
+.programming, .databases, .frameworks, .web-technologies, .other-technologies {
+    color: #fff;
+}
+
+.programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills {
+	display: flex;
+}

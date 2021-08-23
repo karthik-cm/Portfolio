@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactParticlesJs from 'react-particles-js';
-import '../CSS/ReactParticles.css';
+import '../../CSS/Generic/ReactParticles.css';
 
 const ReactParticles = () => {
 	return (
