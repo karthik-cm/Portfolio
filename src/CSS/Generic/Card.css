@@ -14,13 +14,6 @@
 	cursor: pointer;
 }
 
-.image-container img {
-	overflow: hidden;
-	background-color: #fff;
-	width: 13rem;
-	height: 6rem;
-}
-
 .card-title {
 	text-align: center;
 	color: #fff;

@@ -8,6 +8,7 @@ import Intro from './Components/Intro';
 import AboutMe from './Components/AboutMe';
 import Background from './Components/Background';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 
 import ReactParticles from './Components/Generic/ReactParticles';
 
@@ -21,6 +22,7 @@ function App() {
       <AboutMe />
       <Background />
       <Skills />
+      <Projects />
     </React.Fragment>
   );
 }

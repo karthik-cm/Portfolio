@@ -9,9 +9,14 @@
     flex-flow: column;
 }
 
-.card-body {
-    display: none;
+.skills-image-container img {
+	overflow: hidden;
+	background-color: #fff;
+	width: 12rem;
+	height: 6rem;
 }
+
+
 
 
 

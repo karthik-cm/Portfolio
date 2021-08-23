@@ -1,0 +1,60 @@
+/* For Projects */
+.Projects {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.projects {
+	display: flex;
+}
+
+
+.projects-card .projects-image-container img {
+	overflow: hidden;
+	background-color: #fff;
+	width: 18rem;
+	height: 12rem;
+}
+
+.projects-card .card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.card-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.card-url, .card-url:hover {
+	text-decoration: none;
+	color: #fff;
+	padding: 0.5rem;
+	border: 2px solid #fff;
+}
+
+.card-url:hover {
+	background-color: #fff;
+	color: #000;
+	animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../CSS/Skills.css';
 
-import Card from '../Components/Generic/Card';
+import SkillsCard from './Generic/SkillsCard';
 
-// Programming
+// Import Logos
 import JAVA_LOGO_URL from '../Logos/Skills/java.svg';
 import JAVASCRIPT_LOGO_URL from '../Logos/Skills/javascript.svg';
 import PYTHON_LOGO_URL from '../Logos/Skills/python.svg';
@@ -60,10 +60,9 @@ const OTHER_SKILLS = {
 
 
 
-
 const Skills = () => {
 	return (
-		<div className="Skills container-fluid">
+		<div className="Skills container-fluid pt-5">
 			<div className="row">
 				<h1 className="section-heading">Skills</h1>
 			</div>
@@ -74,19 +73,19 @@ const Skills = () => {
 			</div>
 			<div className="programming-skills pt-3">
 				<div>
-					<Card title={PROG_SKILLS.java[0]} image_url={PROG_SKILLS.java[1]} body=""></Card>
+					<SkillsCard title={PROG_SKILLS.java[0]} image_url={PROG_SKILLS.java[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={PROG_SKILLS.javascript[0]} image_url={PROG_SKILLS.javascript[1]} body=""></Card>
+					<SkillsCard title={PROG_SKILLS.javascript[0]} image_url={PROG_SKILLS.javascript[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={PROG_SKILLS.python[0]} image_url={PROG_SKILLS.python[1]} body=""></Card>
+					<SkillsCard title={PROG_SKILLS.python[0]} image_url={PROG_SKILLS.python[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={PROG_SKILLS.cpp[0]} image_url={PROG_SKILLS.cpp[1]} body=""></Card>
+					<SkillsCard title={PROG_SKILLS.cpp[0]} image_url={PROG_SKILLS.cpp[1]} body=""></SkillsCard>
 				</div>
 			</div>
 
@@ -98,15 +97,15 @@ const Skills = () => {
 			</div>
 			<div className="databases-skills pt-3">
 				<div>
-					<Card title={DB_SKILLS.oraclesql[0]} image_url={DB_SKILLS.oraclesql[1]} body=""></Card>
+					<SkillsCard title={DB_SKILLS.oraclesql[0]} image_url={DB_SKILLS.oraclesql[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={DB_SKILLS.mysql[0]} image_url={DB_SKILLS.mysql[1]} body=""></Card>
+					<SkillsCard title={DB_SKILLS.mysql[0]} image_url={DB_SKILLS.mysql[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={DB_SKILLS.sqlite[0]} image_url={DB_SKILLS.sqlite[1]} body=""></Card>
+					<SkillsCard title={DB_SKILLS.sqlite[0]} image_url={DB_SKILLS.sqlite[1]} body=""></SkillsCard>
 				</div>
 			</div>
 
@@ -118,11 +117,11 @@ const Skills = () => {
 			</div>
 			<div className="frameworks-skills pt-3">
 				<div>
-					<Card title={FW_SKILLS.spring[0]} image_url={FW_SKILLS.spring[1]} body=""></Card>
+					<SkillsCard title={FW_SKILLS.spring[0]} image_url={FW_SKILLS.spring[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={FW_SKILLS.hibernate[0]} image_url={FW_SKILLS.hibernate[1]} body=""></Card>
+					<SkillsCard title={FW_SKILLS.hibernate[0]} image_url={FW_SKILLS.hibernate[1]} body=""></SkillsCard>
 				</div>
 			</div>
 
@@ -134,23 +133,23 @@ const Skills = () => {
 			</div>
 			<div className="web-technologies-skills pt-3">
 				<div>
-					<Card title={WEB_SKILLS.html5[0]} image_url={WEB_SKILLS.html5[1]} body=""></Card>
+					<SkillsCard title={WEB_SKILLS.html5[0]} image_url={WEB_SKILLS.html5[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={WEB_SKILLS.css3[0]} image_url={WEB_SKILLS.css3[1]} body=""></Card>
+					<SkillsCard title={WEB_SKILLS.css3[0]} image_url={WEB_SKILLS.css3[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={WEB_SKILLS.bootstrap[0]} image_url={WEB_SKILLS.bootstrap[1]} body=""></Card>
+					<SkillsCard title={WEB_SKILLS.bootstrap[0]} image_url={WEB_SKILLS.bootstrap[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={WEB_SKILLS.jquery[0]} image_url={WEB_SKILLS.jquery[1]} body=""></Card>
+					<SkillsCard title={WEB_SKILLS.jquery[0]} image_url={WEB_SKILLS.jquery[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={WEB_SKILLS.reactjs[0]} image_url={WEB_SKILLS.reactjs[1]} body=""></Card>
+					<SkillsCard title={WEB_SKILLS.reactjs[0]} image_url={WEB_SKILLS.reactjs[1]} body=""></SkillsCard>
 				</div>
 			</div>
 
@@ -162,11 +161,11 @@ const Skills = () => {
 			</div>
 			<div className="other-technologies-skills pt-3">
 				<div>
-					<Card title={OTHER_SKILLS.git[0]} image_url={OTHER_SKILLS.git[1]} body=""></Card>
+					<SkillsCard title={OTHER_SKILLS.git[0]} image_url={OTHER_SKILLS.git[1]} body=""></SkillsCard>
 				</div>
 
 				<div className="padding-left-2">
-					<Card title={OTHER_SKILLS.selenium[0]} image_url={OTHER_SKILLS.selenium[1]} body=""></Card>
+					<SkillsCard title={OTHER_SKILLS.selenium[0]} image_url={OTHER_SKILLS.selenium[1]} body=""></SkillsCard>
 				</div>
 			</div>
 
