@@ -2,6 +2,7 @@ import React from 'react';
 import '../CSS/Footer.css';
 
 import { SocialIcon } from 'react-social-icons';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
 	return (
@@ -19,17 +20,22 @@ const Footer = () => {
 					
 					<div className="col-lg-6 col-md-6 col-sm-8 justify-content-center">
 						<div className="d-flex justify-content-center">
-							<a className="footer-nav" href="">Home</a>
+							<Link to="home" className="footer-nav" href="">Home</Link>
 							<span style={{paddingLeft: '1rem'}}></span>
-							<a className="footer-nav" href="">About Me</a>
+							
+							<Link to="aboutme" className="footer-nav" href="">About Me</Link>
 							<span style={{paddingLeft: '1rem'}}></span>
-							<a className="footer-nav" href="">Background</a>
+
+							<Link to="background" className="footer-nav" href="">Background</Link>
 							<span style={{paddingLeft: '1rem'}}></span>
-							<a className="footer-nav" href="">Skills</a>
+
+							<Link to="skills" href="">Skills</Link>
 							<span style={{paddingLeft: '1rem'}}></span>
-							<a className="footer-nav" href="">Projects</a>
+
+							<Link to="projects" href="">Projects</Link>
 							<span style={{paddingLeft: '1rem'}}></span>
-							<a className="footer-nav" href="">Contact Me</a>
+
+							<Link to="contactme" className="footer-nav" href="">Contact Me</Link>
 						</div>
 					</div>
 					

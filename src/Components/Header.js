@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-dark bg-darken-xl fixed-top">
         <div className="container">
           
-          <Link smooth={true} to="home" className="navbar-brand">KARTHIK CM</Link>
+          <Link smooth={true} to="home" className="nav-link navbar-brand">KARTHIK CM</Link>
           
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color: '#fff'}} />
@@ -22,19 +22,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link smooth={true} to="aboutme" className="nav-link">About Me</Link>
+                <Link to="aboutme" className="nav-link">About Me</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="background" className="nav-link">Background</Link>
+                <Link to="background" className="nav-link">Background</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="skills" className="nav-link">Skills</Link>
+                <Link to="skills" className="nav-link">Skills</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="projects" className="nav-link">Projects</Link>
+                <Link to="projects" className="nav-link">Projects</Link>
               </li>
               <li className="nav-item">
-                <Link smooth={true} to="contactme" className="nav-link">Contact Me</Link>
+                <Link to="contactme" className="nav-link">Contact Me</Link>
               </li>
             </ul>
           </div>
