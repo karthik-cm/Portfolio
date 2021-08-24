@@ -5,7 +5,7 @@ import '../CSS/Background.css';
 
 
 const background = (props) => (
-    <div className="Background container-fluid">
+    <div id="background" className="Background container-fluid">
         <h1 className="section-heading">Background</h1>
 
         <VerticalTimeline>

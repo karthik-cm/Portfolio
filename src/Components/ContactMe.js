@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import '../CSS/ContactMe.css';
 
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com'; // to get contacted via email
 
 import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
+
 
 const ContactMe = () => {
 	// React Hooks
 	const [ successMessage, setSuccessMessage ] = useState("");
 	const { 
 		register, 
-		handleSubmit, 
+		handleSubmit,
 		formState: { errors } 
 	} = useForm();
 
@@ -56,10 +57,10 @@ const ContactMe = () => {
 
 
 	return (
-		<div className="ContactMe container-fluid pt-5">
+		<div id="contactme" className="ContactMe container-fluid pt-5">
 			<div>
 				<h1 className="section-heading">Contact Me</h1>
-				<h4>Thanks for taking time to contact me...</h4>
+				<h4>Thanks for taking the time to contact me...</h4>
 				<span className="success-message">{successMessage}</span>
 			</div>
 
@@ -122,7 +123,7 @@ const ContactMe = () => {
 					<ErrorMessage errors={errors} name="message" render={({ message }) => <span className="error-message">{message}</span>}/>
 
 
-					<div className="pt-5">
+					<div className="pt-5 pb-5">
 						<button className="btn btn-success contact-me-btn fw-bold" type="submit">Submit</button>
 					</div>
 				</form>

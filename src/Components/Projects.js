@@ -12,7 +12,7 @@ const PROJECTS = {
 
 const Projects = () => {
 	return (
-		<div className="Projects container-fluid pt-5">
+		<div id="projects" className="Projects container-fluid pt-5">
 			<div className="row">
 				<h1 className="section-heading">Projects</h1>
 			</div>

@@ -16,7 +16,7 @@ const RESUME_URL = 'https://drive.google.com/file/d/1nRd3bfDdp6DOBAGPs7bEvFO360V
 
 const Intro = () => {
 	return (
-		<div className="Intro container-fluid intro-wrapper">
+		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
 				{/* <h1>Hey there, Welcome!</h1> */}
 
@@ -36,13 +36,13 @@ const Intro = () => {
 
 				<div className="social-media-section">
 					<span className="linkedin-section">
-						<a href="https://www.linkedin.com/karthik-cm/" target="_blank">
+						<a href="https://www.linkedin.com/in/karthik-cm/" target="_blank">
 							<img className="linkedin-logo" src={linkedinIcon} />
 						</a>
 					</span>
 					<span style={{ paddingLeft: '2rem' }}></span>
 					<span className="github-section">
-						<a href="https://www.github.com/karthik-cm/" target="_blank">
+						<a href="https://github.com/karthik-cm/" target="_blank">
 							<img className="github-logo" src={githubIcon} />
 						</a>
 					</span>

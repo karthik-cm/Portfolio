@@ -1,4 +1,4 @@
-/**************** 1 - NAVIGATION BAR **************/
+/**************** Header CSS **************/
 
 nav {
 	z-index: 2;
@@ -29,7 +29,7 @@ a.navbar-brand {
 	color: var(--primary-white) !important;
 }
   
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
 	border-top: 0.125rem solid var(--primary-orange) !important;
 }
   

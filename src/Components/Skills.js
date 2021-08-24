@@ -62,7 +62,7 @@ const OTHER_SKILLS = {
 
 const Skills = () => {
 	return (
-		<div className="Skills container-fluid pt-5">
+		<div id="skills" className="Skills container-fluid pt-5">
 			<div className="row">
 				<h1 className="section-heading">Skills</h1>
 			</div>
