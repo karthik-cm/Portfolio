@@ -27,4 +27,19 @@
 
 .programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills {
 	display: flex;
+	flex-direction: row;
+}
+
+
+
+@media(max-width: 768px) {
+	.skills-image-container img {
+		background-color: #fff;
+		width: 8rem;
+		height: 4rem;
+	}
+
+	.programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills {
+		flex-direction: column;
+	}
 }

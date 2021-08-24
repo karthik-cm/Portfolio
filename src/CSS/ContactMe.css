@@ -1,0 +1,52 @@
+/*** ContactMe - CSS ***/
+
+.ContactMe {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.ContactMe h4 {
+	color: #fff;
+}
+
+.contact-me-form {
+	padding: 2rem;
+}
+
+
+.contact-me-form input, .contact-me-form textarea {
+	width: 100%;
+	box-sizing: border-box;
+	background: none;
+	border: 0;
+	border: 1px solid #fff;
+	border-radius: 0;
+	outline: 0 !important;
+	box-shadow: none;
+	color: #fff;
+}
+
+.contact-me-form input:focus, .contact-me-form textarea:focus {
+	background: transparent !important;
+	color: #fff;
+}
+
+.contact-me-btn, .reset-contact-me-btn{
+	width: 75%;
+	padding: 1rem;
+}
+
+.error-message {
+	color: #fff;
+	background: red;
+	text-align: left;
+}
+
+.success-message {
+	font-weight: bold;
+	color: green;
+}
