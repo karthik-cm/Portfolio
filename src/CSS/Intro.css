@@ -1,4 +1,5 @@
-/**************** 2 - INTRO **************/
+/**************** INTRO / HOME CSS ****************/
+
 .intro-wrapper {
 	position: relative;
 	background: url(../Images/MainBackground.jpg);
@@ -22,10 +23,11 @@
 }
 
 
-/**************** 2.1 - INTRO HEADING **************/
+/**************** INTRO HEADING **************/
 .intro-info h1 {
 	color: #f9ab00;
 	text-transform: uppercase;
+	padding-top: 2rem;
 }
 
 
@@ -36,6 +38,7 @@
 	color: var(--primary-white);
 	padding-bottom: 3rem;
 }
+
 
 
 /**************** Resume **************/
@@ -61,8 +64,9 @@
 }
 
 .intro-contact-me:hover {
+	cursor: pointer;
 	text-decoration: none;
-	background-color: var(--primary-red);
+	background-color: red;
 	color: var(--primary-white);
 	animation: enable 0.3s linear;
 }
@@ -79,22 +83,9 @@
     }
 }
 
-@media(max-width: 768px) {
-	.intro-info h1 {
-		font-size: 1.7rem !important;
-	}
-	.areas-of-interest {
-		font-size: 1.3rem !important;
-	}
-}
 
 
 /**************** LinkedIn / GitHub / Gmail Section **************/
-/*.social-media-section{
-	background-color: #fff;
-	padding: 0.5rem;
-}*/
-
 .linkedin-logo, .github-logo, .gmail-logo {
 	width: 3.5rem;
 	background-color: #fff;
@@ -102,4 +93,20 @@
 
 .linkedin-logo:hover, .github-logo:hover, .gmail-logo:hover, .my-resume:hover {
 	animation: enable 0.3s linear;
+}
+
+
+
+/**************** MOBILE ****************/
+@media(max-width: 768px) {
+	.intro-info h1 {
+		font-size: 1.8rem !important;
+	}
+	.areas-of-interest {
+		font-size: 1.3rem !important;
+	}
+
+	.linkedin-logo, .github-logo, .gmail-logo{
+		width: 3rem;
+	}
 }

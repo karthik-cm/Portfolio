@@ -1,4 +1,5 @@
-/**************** ABOUT ME **************/
+/**************** ABOUT ME - CSS ****************/
+
 .AboutMe {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
 }
@@ -8,9 +9,10 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 }
 
+
+/*** Profile Image ***/
 .profile-img {
 	width: 18rem;
 	border-radius: 50%;
@@ -21,15 +23,30 @@
 .profile-img-section {
 	text-align: center;
 }
-  
+
+
+
 .about-me-heading {
 	text-transform: uppercase;
 	color: var(--primary-orange);
 }
 
-.about-me-main-text, .about-me-description {
+
+
+.name {
+	text-decoration: underline solid #f9ab00;
+}
+
+.about-me-main {
+	color: #fff;
+	text-align: center;
+}
+
+.about-me-sub {
 	color: #fff;
 }
+
+
 
   
 @media(max-width: 768px) {
@@ -41,7 +58,7 @@
 	  padding-top: 25px;
 	}
   
-	.about-me-heading, .about-me-description {
+	.about-me-heading, .about-me-sub {
 	  padding-left: 1rem;
 	  padding-right: 1rem;
 	  text-align: center;

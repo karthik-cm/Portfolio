@@ -1,19 +1,20 @@
 import React from 'react';
+import '../CSS/Header.css';
 
 import { Link } from 'react-scroll';
 
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import '../CSS/Header.css';
+
 
 
 const Header = () => {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark bg-darken-xl fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark bg-darken-xl">
         <div className="container">
           
-          <Link smooth={true} to="home" className="nav-link navbar-brand">KARTHIK CM</Link>
+          <Link className="nav-link navbar-brand brand fw-bold">KARTHIK CM</Link>
           
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon={faBars} style={{color: '#fff'}} />

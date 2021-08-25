@@ -14,19 +14,26 @@ const AboutMe = () => {
 					<img className="profile-img" src={portfolioPic} alt="profile image.." />
 				</div>
 
-				<div className="about-me-main-text row pt-3">
-					<h2 className="fw-bold">KARTHIK CM</h2>
-					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
-					<h4 className="fw-bold pt-3">Actively looking for SDE Internship positions starting Summer 2022</h4>
+				<div className="about-me-main row pt-4">
+					<h2 className="fw-bold name">KARTHIK CM</h2>
+					<h5 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h5>
+					<h4 className="fw-bold pt-4">"Actively looking for SDE Internship positions starting Summer 2022"</h4>
 				</div>
 
-				<div className="col-md-6 col-xs- row profile-details-section pt-3">
-					<h5 className="about-me-description">
-					   I have worked as Full Stack Developer at Tata Consultancy Services for over 4 years. 
-					   I am specialized in designing and developing Enterprise Web applications assisted by Spring Framework. 
-					   Also well versed in end to end software development life cycle activities like Design, Data Modeling, Unit/Functional Testing, Security, API, Version Control System
-					</h5>
+
+				<div className="about-me-sub">
+					<div className="col-md-12 col-xs-12 pt-5">
+						<h5>
+							<ul>
+								<li>4+ years of work experience as a Full Stack Developer at MNC on Insurance sector/domain</li>
+								<li>Skilled in designing and developing Web Portals, Web Services, Batch Processing and Data Modeling</li>
+								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
+								{/* <li>Well versed in end to end software development life cycle activities like Design, Data Modeling, Unit/Functional Testing, Security, API, Version Control System</li> */}
+						</ul>
+						</h5>
+					</div>
 				</div>
+				
 			</div>
 		</div>
 	)
