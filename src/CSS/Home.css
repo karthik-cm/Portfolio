@@ -1,11 +1,11 @@
-/**************** INTRO / HOME CSS ****************/
+/*************** Home - CSS ***************/
 
 .intro-wrapper {
 	position: relative;
 	background: url(../Images/MainBackground.jpg);
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 }
 
 .intro-info {

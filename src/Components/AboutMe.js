@@ -1,6 +1,8 @@
 import React from 'react'
-import portfolioPic from '../Images/PortfolioPic.jpg'
 import '../CSS/AboutMe.css';
+
+import portfolioPic from '../Images/PortfolioPic.jpg'
+
 
 const AboutMe = () => {
 	return (

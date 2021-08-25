@@ -73,19 +73,22 @@ const Skills = () => {
 			</div>
 			<div className="programming-skills pt-3">
 				<div>
-					<SkillsCard title={PROG_SKILLS.java[0]} image_url={PROG_SKILLS.java[1]} body=""></SkillsCard>
+					<SkillsCard title={PROG_SKILLS.java[0]} image_url={PROG_SKILLS.java[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={PROG_SKILLS.javascript[0]} image_url={PROG_SKILLS.javascript[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={PROG_SKILLS.javascript[0]} image_url={PROG_SKILLS.javascript[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={PROG_SKILLS.python[0]} image_url={PROG_SKILLS.python[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={PROG_SKILLS.python[0]} image_url={PROG_SKILLS.python[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={PROG_SKILLS.cpp[0]} image_url={PROG_SKILLS.cpp[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={PROG_SKILLS.cpp[0]} image_url={PROG_SKILLS.cpp[1]}></SkillsCard>
 				</div>
 			</div>
 
@@ -97,15 +100,17 @@ const Skills = () => {
 			</div>
 			<div className="databases-skills pt-3">
 				<div>
-					<SkillsCard title={DB_SKILLS.oraclesql[0]} image_url={DB_SKILLS.oraclesql[1]} body=""></SkillsCard>
+					<SkillsCard title={DB_SKILLS.oraclesql[0]} image_url={DB_SKILLS.oraclesql[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={DB_SKILLS.mysql[0]} image_url={DB_SKILLS.mysql[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={DB_SKILLS.mysql[0]} image_url={DB_SKILLS.mysql[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={DB_SKILLS.sqlite[0]} image_url={DB_SKILLS.sqlite[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={DB_SKILLS.sqlite[0]} image_url={DB_SKILLS.sqlite[1]}></SkillsCard>
 				</div>
 			</div>
 
@@ -117,11 +122,12 @@ const Skills = () => {
 			</div>
 			<div className="frameworks-skills pt-3">
 				<div>
-					<SkillsCard title={FW_SKILLS.spring[0]} image_url={FW_SKILLS.spring[1]} body=""></SkillsCard>
+					<SkillsCard title={FW_SKILLS.spring[0]} image_url={FW_SKILLS.spring[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={FW_SKILLS.hibernate[0]} image_url={FW_SKILLS.hibernate[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={FW_SKILLS.hibernate[0]} image_url={FW_SKILLS.hibernate[1]}></SkillsCard>
 				</div>
 			</div>
 
@@ -133,39 +139,44 @@ const Skills = () => {
 			</div>
 			<div className="web-technologies-skills pt-3">
 				<div>
-					<SkillsCard title={WEB_SKILLS.html5[0]} image_url={WEB_SKILLS.html5[1]} body=""></SkillsCard>
+					<SkillsCard title={WEB_SKILLS.html5[0]} image_url={WEB_SKILLS.html5[1]}></SkillsCard>
+				</div>
+				
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={WEB_SKILLS.css3[0]} image_url={WEB_SKILLS.css3[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={WEB_SKILLS.css3[0]} image_url={WEB_SKILLS.css3[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={WEB_SKILLS.bootstrap[0]} image_url={WEB_SKILLS.bootstrap[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={WEB_SKILLS.bootstrap[0]} image_url={WEB_SKILLS.bootstrap[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={WEB_SKILLS.jquery[0]} image_url={WEB_SKILLS.jquery[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={WEB_SKILLS.jquery[0]} image_url={WEB_SKILLS.jquery[1]} body=""></SkillsCard>
-				</div>
-
-				<div className="padding-left-2">
-					<SkillsCard title={WEB_SKILLS.reactjs[0]} image_url={WEB_SKILLS.reactjs[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={WEB_SKILLS.reactjs[0]} image_url={WEB_SKILLS.reactjs[1]}></SkillsCard>
 				</div>
 			</div>
 
 
 
-			{/* OTHER TECHNOLOGIES */}
+			{/* OTHER */}
 			<div className="other-technologies pt-5">
 				<h3>Other Technologies</h3>
 			</div>
 			<div className="other-technologies-skills pt-3">
 				<div>
-					<SkillsCard title={OTHER_SKILLS.git[0]} image_url={OTHER_SKILLS.git[1]} body=""></SkillsCard>
+					<SkillsCard title={OTHER_SKILLS.git[0]} image_url={OTHER_SKILLS.git[1]}></SkillsCard>
 				</div>
 
-				<div className="padding-left-2">
-					<SkillsCard title={OTHER_SKILLS.selenium[0]} image_url={OTHER_SKILLS.selenium[1]} body=""></SkillsCard>
+				<div className="gap"></div>
+				<div>
+					<SkillsCard title={OTHER_SKILLS.selenium[0]} image_url={OTHER_SKILLS.selenium[1]}></SkillsCard>
 				</div>
 			</div>
 

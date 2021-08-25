@@ -2,6 +2,7 @@ import React from 'react';
 import '../../CSS/Generic/Card.css';
 
 
+
 export default function ProjectsCard({title, image_url, body, link}) {
 	return (
 		<div className="projects-card">

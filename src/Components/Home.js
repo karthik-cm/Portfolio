@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/Intro.css';
+import '../CSS/Home.css';
 
 import ReactTyped from 'react-typed';
 
@@ -14,7 +14,7 @@ import { Link } from 'react-scroll';
 const AREAS_OF_INTEREST = ["A Java Geek", "Web Design", "Web Development", "Full Stack Development", "Game Development"];
 const RESUME_URL = 'https://drive.google.com/file/d/1nRd3bfDdp6DOBAGPs7bEvFO360V5Od0f/view';
 
-const Intro = () => {
+const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
@@ -65,4 +65,4 @@ const Intro = () => {
 	)
 }
 
-export default Intro
+export default Home

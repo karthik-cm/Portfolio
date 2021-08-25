@@ -3,8 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './Components/Header';
-import Intro from './Components/Intro';
-
+import Home from './Components/Home';
 import AboutMe from './Components/AboutMe';
 import Background from './Components/Background';
 import Skills from './Components/Skills';
@@ -21,7 +20,7 @@ function App() {
       <ReactParticles />
       
       <Header />
-      <Intro />
+      <Home />
       <AboutMe />
       <Background />
       <Skills />

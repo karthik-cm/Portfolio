@@ -1,4 +1,4 @@
-/**************** ABOUT ME - CSS ****************/
+/*************** AboutMe - CSS ***************/
 
 .AboutMe {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../Images/SectionBackground.jpg');
@@ -10,6 +10,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 
 
 /*** Profile Image ***/
@@ -31,8 +32,6 @@
 	color: var(--primary-orange);
 }
 
-
-
 .name {
 	text-decoration: underline solid #f9ab00;
 }
@@ -45,7 +44,6 @@
 .about-me-sub {
 	color: #fff;
 }
-
 
 
   

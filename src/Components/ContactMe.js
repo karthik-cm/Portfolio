@@ -7,6 +7,7 @@ import { useForm } from 'react-hook-form';
 import { ErrorMessage } from '@hookform/error-message';
 
 
+
 const ContactMe = () => {
 	// React Hooks
 	const [ successMessage, setSuccessMessage ] = useState("");
@@ -33,7 +34,7 @@ const ContactMe = () => {
 
 	
 	
-	// For Email
+	// Send Email
 	const serviceID = "service_ID";
 	const templateID = "template_ID";
 	const userID = "user_InuEX6nkMo4QBdXcDOe1a";
@@ -60,14 +61,14 @@ const ContactMe = () => {
 		<div id="contactme" className="ContactMe container-fluid pt-5">
 			<div>
 				<h1 className="section-heading">Contact Me</h1>
-				<h4>Thanks for taking the time to contact me...</h4>
+				<h4>Thanks for taking the time to reach me..</h4>
 				<span className="success-message">{successMessage}</span>
 			</div>
 
 			<div className="contact-me-form container col-md-6 col-xs-12">
 				<form onSubmit={handleSubmit(submitForm)}>
 					<div className="row pt-3">
-						<input type="text" id="name" className="name form-control" name="name" placeholder="Name" 
+						<input type="text" id="name" className="cname form-control" name="name" placeholder="Name" 
 							{...register('name', {
 								required: "Please enter your Name",
 								maxLength: {
@@ -110,7 +111,7 @@ const ContactMe = () => {
 
 
 					<div className="row pt-3">
-						<textarea id="message" className="message" name="message" rows="4" placeholder="Message (Max 250 characters)"
+						<textarea id="message" className="message" name="message" rows="4" placeholder="Message (Max 500 characters)"
 							{...register('message', {
 								required: "Please enter the Message",
 								maxLength: {
