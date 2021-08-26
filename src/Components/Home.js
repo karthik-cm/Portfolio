@@ -18,7 +18,7 @@ const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
-				<h1>Areas of Interest</h1>
+				{/* <h1>Areas of Interest</h1> */}
 
 				{/* Typed Text Effect */}
 				<ReactTyped 
