@@ -12,7 +12,7 @@ import { Link } from 'react-scroll';
 
 // Constants
 const AREAS_OF_INTEREST = ["A Java Geek", "Web Design", "Web Development", "Full Stack Development", "Game Development"];
-const RESUME_URL = 'https://drive.google.com/file/d/1nRd3bfDdp6DOBAGPs7bEvFO360V5Od0f/view';
+const RESUME_URL = 'https://drive.google.com/file/d/1ZynfWGjkgMRWdxSLAHAD-KYjA_XPx2bq/view';
 
 const Home = () => {
 	return (
