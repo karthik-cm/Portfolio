@@ -11,7 +11,7 @@ const Footer = () => {
 	return (
 		<div className="Footer container-fluid">
 			<div className="row">
-				<div className="contact-section col-lg-3 col-md-3 col-sm-6">
+				<div className="contact-section col-lg-3 col-md-3 col-sm-6 justify-content-center">
 					<div>
 						<p>Santa Clara, CA 95050</p>
 					</div>
