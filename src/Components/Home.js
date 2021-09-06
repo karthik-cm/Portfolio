@@ -45,11 +45,6 @@ const Home = () => {
 					<span className="github-section">
 						<SocialIcon url="https://github.com/karthik-cm/" target="_blank" bgColor="#fff" style={{ height: 50, width: 50 }} />
 					</span>
-					<span style={{ paddingLeft: '2rem' }}></span>
-					
-					<span className="gmail-section">
-						<SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&to=karthikcm.77@gmail.com" target="_blank" bgColor="#fff" style={{ height: 50, width: 50 }} />
-					</span>
 				</div>
 			</div>
 		</div>
