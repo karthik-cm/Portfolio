@@ -3,10 +3,7 @@ import '../CSS/Home.css';
 
 import ReactTyped from 'react-typed';
 
-import linkedinIcon from '../Logos/linkedin.svg';
-import githubIcon from '../Logos/github.svg';
-import gmailIcon from '../Logos/gmail.svg';
-
+import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-scroll';
 
 
@@ -18,14 +15,14 @@ const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
-				{/* <h1>Areas of Interest</h1> */}
+				<h2>Actively looking for SDE Internships staring Spring / Summer 2022</h2>
 
 				{/* Typed Text Effect */}
 				<ReactTyped 
 					className="areas-of-interest" 
 					strings={AREAS_OF_INTEREST}
-					typeSpeed={50}
-					backSpeed={60}
+					typeSpeed={60}
+					backSpeed={70}
 					loop
 				/>
 				
@@ -35,29 +32,23 @@ const Home = () => {
 
 
 				{/* Contact Me */}
-				<Link to="contactme" className="intro-contact-me">Contact Me</Link>
+				{/* <Link to="contactme" className="intro-contact-me">Contact Me</Link> */}
 
 
 				{/* LinkedIn, GitHub, Gmail */}
-				<div className="social-media-section">
+				<div className="social-media-section pt-2">
 					<span className="linkedin-section">
-						<a href="https://www.linkedin.com/in/karthik-cm/" target="_blank">
-							<img className="linkedin-logo" src={linkedinIcon} />
-						</a>
+						<SocialIcon url="https://www.linkedin.com/in/karthik-cm/" target="_blank" bgColor="#fff" style={{ height: 50, width: 50 }} />
 					</span>
 					<span style={{ paddingLeft: '2rem' }}></span>
 
 					<span className="github-section">
-						<a href="https://github.com/karthik-cm/" target="_blank">
-							<img className="github-logo" src={githubIcon} />
-						</a>
+						<SocialIcon url="https://github.com/karthik-cm/" target="_blank" bgColor="#fff" style={{ height: 50, width: 50 }} />
 					</span>
 					<span style={{ paddingLeft: '2rem' }}></span>
 					
 					<span className="gmail-section">
-						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=karthikcm.77@gmail.com" target="_blank">
-							<img className="gmail-logo" src={gmailIcon} />
-						</a>
+						<SocialIcon url="https://mail.google.com/mail/?view=cm&fs=1&to=karthikcm.77@gmail.com" target="_blank" bgColor="#fff" style={{ height: 50, width: 50 }} />
 					</span>
 				</div>
 			</div>

@@ -14,13 +14,13 @@ const PROJECTS = {
 
 const Projects = () => {
 	return (
-		<div id="projects" className="Projects container-fluid pt-5">
+		<div id="projects" className="Projects container-fluid py-5">
 			<div className="row">
 				<h1 className="section-heading">Projects</h1>
 			</div>
 
 			{/* PROJECTS */}
-			<div className="projects pt-3">
+			<div className="projects">
 				<div>
 					<ProjectsCard 
 						title={PROJECTS.weather_app[0]} 

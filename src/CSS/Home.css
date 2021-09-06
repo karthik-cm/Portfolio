@@ -24,10 +24,11 @@
 
 
 /**************** INTRO HEADING **************/
-.intro-info h1 {
+.intro-info h2 {
 	color: #f9ab00;
-	text-transform: uppercase;
-	padding-top: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding-bottom: 2rem;
 }
 
 
@@ -42,28 +43,19 @@
 
 
 /**************** Resume **************/
-.intro-info .my-resume {
-	text-decoration: underline;
-	text-transform: uppercase;
-	color: var(--primary-white);
-	font-size: x-large;
-}
-
-
-
-/**************** Contact Me **************/
-.intro-contact-me {
+.my-resume {
+	font-size: larger;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: var(--primary-white);
 
-	border: 2px solid red;
+	border: 3px solid red;
 	border-radius: 0;
-	padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-	margin: 2rem;
+	padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+	margin-bottom: 3rem;
 }
 
-.intro-contact-me:hover {
+.my-resume:hover {
 	cursor: pointer;
 	text-decoration: none;
 	background-color: red;

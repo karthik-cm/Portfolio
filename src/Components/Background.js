@@ -24,7 +24,7 @@ const background = (props) => (
             >
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
-                <h4 className="vertical-timeline-element-subtitle">Santa Clara University</h4>
+                <h4 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h4>
                 <p>Coursework: Computer Architecture</p>
                 <p>Web Developer Intern at University Marketing and Communications team </p>
             </VerticalTimelineElement>
@@ -38,8 +38,8 @@ const background = (props) => (
                 // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services</h4>
-                <p>End to end design/development of Web App for 'HDFC Life Insurance' </p>
+                <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h4>
+                <p>End to end design & development of Web app for 'HDFC Life Insurance' </p>
                 <p>Tech Stack: JAVA, Spring Framework (MVC/Batch/REST), Oracle PL/SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap</p>
             </VerticalTimelineElement>
 
@@ -52,7 +52,7 @@ const background = (props) => (
                 // icon={<WorkIcon />} f9ab00
             >
                 <h3 className="vertical-timeline-element-title">B.E in Information Science</h3>
-                <h4 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University</h4>
+                <h4 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University, INDIA</h4>
                 <p>Coursework: Design and Analysis of Algorithms, Data Structures with C, Database Management Systems, JAVA and J2EE, Programming the Web</p>
                 <p>Volunteer and member of organizing committee for the College annual fest</p>
             </VerticalTimelineElement>

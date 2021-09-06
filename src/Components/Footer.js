@@ -22,25 +22,25 @@ const Footer = () => {
 				
 				<div className="link-section col-lg-3 col-md-3 col-sm-6">
 					<div className="footer-links justify-content-center">
-						<Link to="home" className="footer-nav">Home</Link>
+						<Link to="home" smooth className="footer-nav">Home</Link>
 						<span className="footergap"></span>
 						
-						<Link to="aboutme" className="footer-nav">About Me</Link>
+						<Link to="aboutme" smooth className="footer-nav">About Me</Link>
 						<span className="footergap"></span>
 
-						<Link to="background" className="footer-nav">Background</Link>
+						<Link to="background" smooth className="footer-nav">Background</Link>
 						<span className="footergap"></span>
 					</div>
 				</div>
 				<div className="link-section col-lg-3 col-md-3 col-sm-6">
 					<div className="footer-links justify-content-center">
-						<Link to="skills" className="footer-nav">Skills</Link>
+						<Link to="skills" smooth className="footer-nav">Skills</Link>
 						<span className="footergap"></span>
 
-						<Link to="projects" className="footer-nav">Projects</Link>
+						<Link to="projects" smooth className="footer-nav">Projects</Link>
 						<span className="footergap"></span>
 
-						<Link to="contactme" className="footer-nav">Contact Me</Link>
+						<Link to="contactme" smooth className="footer-nav">Contact Me</Link>
 					</div>
 				</div>
 				

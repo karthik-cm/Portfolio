@@ -23,19 +23,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link to="aboutme" className="nav-link">About Me</Link>
+                <Link to="aboutme" smooth className="nav-link">About Me</Link>
               </li>
               <li className="nav-item">
-                <Link to="background" className="nav-link">Background</Link>
+                <Link to="background" smooth className="nav-link">Background</Link>
               </li>
               <li className="nav-item">
-                <Link to="skills" className="nav-link">Skills</Link>
+                <Link to="skills" smooth className="nav-link">Skills</Link>
               </li>
               <li className="nav-item">
-                <Link to="projects" className="nav-link">Projects</Link>
+                <Link to="projects" smooth className="nav-link">Projects</Link>
               </li>
               <li className="nav-item">
-                <Link to="contactme" className="nav-link">Contact Me</Link>
+                <Link to="contactme" smooth className="nav-link">Contact Me</Link>
               </li>
             </ul>
           </div>

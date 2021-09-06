@@ -18,8 +18,8 @@ const AboutMe = () => {
 
 				<div className="about-me-main row pt-4">
 					<h2 className="fw-bold name">KARTHIK CM</h2>
-					<h5 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h5>
-					<h4 className="fw-bold pt-4">"Actively looking for SDE Internship positions starting Summer 2022"</h4>
+					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
+					{/* <h4 className="fw-bold pt-4">Actively looking for SDE Internship positions starting Summer 2022</h4> */}
 				</div>
 
 
@@ -27,8 +27,8 @@ const AboutMe = () => {
 					<div className="col-md-12 col-xs-12 pt-5">
 						<h5>
 							<ul>
-								<li>4+ years of work experience as a Full Stack Developer at MNC serving client on Insurance sector/domain</li>
-								<li>Skilled in designing and developing Progressive Web Applications, Web Services, Batch Processing and Data Modeling</li>
+								<li>4+ years of work experience as a Full Stack Developer working at TCS serving the client on Insurance domain</li>
+								<li>Skilled in designing and developing Standalone/Web Applications, Web Services, Batch Processing and Data Modeling</li>
 								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
 								{/* <li>Well versed in end to end software development life cycle activities like Design, Data Modeling, Unit/Functional Testing, Security, API, Version Control System</li> */}
 						</ul>
