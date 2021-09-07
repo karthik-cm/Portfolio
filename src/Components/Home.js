@@ -15,7 +15,7 @@ const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
-				<h2>Actively looking for SDE Internships starting Spring / Summer 2022</h2>
+				<h2>Actively looking for SDE Internships starting Spring/Summer 2022</h2>
 
 				{/* Typed Text Effect */}
 				<ReactTyped 
