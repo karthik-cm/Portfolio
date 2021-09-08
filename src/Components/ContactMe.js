@@ -43,7 +43,7 @@ const ContactMe = () => {
 
 		emailjs.send(serviceID, templateID, params, userID)
 			.then(() => {
-				setSuccessMessage("Form sent successfully! I'll reach out to you as soon as possible");
+				setSuccessMessage("Message received! I'll reach out to you as soon as possible");
 			})
 			.catch(error => console.error(`Something went wrong : ${error}`));
 		
@@ -61,7 +61,7 @@ const ContactMe = () => {
 		<div id="contactme" className="ContactMe container-fluid pt-5">
 			<div>
 				<h1 className="section-heading">Contact Me</h1>
-				<h4>Thanks for taking the time to reach me..</h4>
+				<h4>Thanks for taking the time to reach me</h4>
 				<span className="success-message">{successMessage}</span>
 			</div>
 
