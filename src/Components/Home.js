@@ -8,8 +8,8 @@ import { Link } from 'react-scroll';
 
 
 // Constants
-const AREAS_OF_INTEREST = ["A Java Geek", "Web Design", "Web Development", "Full Stack Development", "Game Development"];
-const RESUME_URL = 'https://drive.google.com/file/d/1BXwEnUqaeZXGJ2_jSx6uP7duAA7GUZqU/view';
+const AREAS_OF_INTEREST = ["A Java Geek", "Full Stack Development", "Web Design", "Web Development", "Game Development"];
+const RESUME_URL = 'https://drive.google.com/file/d/1YhHAbDKEWprEuuShkAC_Vt5MWdlV_8c9/view';
 
 const Home = () => {
 	return (
