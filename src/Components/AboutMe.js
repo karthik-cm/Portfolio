@@ -27,7 +27,7 @@ const AboutMe = () => {
 					<div className="col-md-12 col-xs-12 pt-5">
 						<h5>
 							<ul>
-								<li>4+ years of work experience as a Full Stack Developer working at TCS serving the client on Insurance domain</li>
+								<li>Over 4 years of work experience as a Full Stack Developer at leading multinational IT services and consulting company</li>
 								<li>Skilled in designing and developing Standalone/Web Applications, Web Services, Batch Processing and Data Modeling</li>
 								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
 								{/* <li>Well versed in end to end software development life cycle activities like Design, Data Modeling, Unit/Functional Testing, Security, API, Version Control System</li> */}
