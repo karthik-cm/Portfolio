@@ -37,7 +37,7 @@ const background = (props) => (
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
                 // icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
+                <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h4>
                 <p>End to end design & development of Web app for 'HDFC Life Insurance' </p>
                 <p>Tech Stack: JAVA, Spring Framework (MVC/Batch/REST), Oracle PL/SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap</p>

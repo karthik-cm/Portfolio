@@ -9,13 +9,13 @@ import { Link } from 'react-scroll';
 
 // Constants
 const AREAS_OF_INTEREST = ["A Java Geek", "Full Stack Development", "Web Design", "Web Development", "Game Development"];
-const RESUME_URL = 'https://drive.google.com/file/d/1Bxnio64IGHYg4suSbitwDxvzr2CIztvZ/view';
+const RESUME_URL = 'https://drive.google.com/file/d/1ZtsnbiKAJGaK2sTXWa7dGwSRXWzmVSNg/view';
 
 const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
-				<h2>Actively looking for SDE Internships starting Spring/Summer 2022</h2>
+				<h2>Actively looking for SWE Internships starting Spring/Summer 2022</h2>
 
 				{/* Typed Text Effect */}
 				<ReactTyped 
