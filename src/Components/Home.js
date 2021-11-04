@@ -11,6 +11,7 @@ import { Link } from 'react-scroll';
 const AREAS_OF_INTEREST = ["A Java Geek", "Full Stack Development", "Web Design", "Web Development", "Game Development"];
 const RESUME_URL = 'https://drive.google.com/file/d/1ZtsnbiKAJGaK2sTXWa7dGwSRXWzmVSNg/view';
 
+
 const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
