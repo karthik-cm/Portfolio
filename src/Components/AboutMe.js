@@ -27,12 +27,16 @@ const AboutMe = () => {
 					<div className="col-md-12 col-xs-12 pt-5">
 						<h5>
 							<ul>
-								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
+								<li>Result driven Software Engineer well versed in end to end SDLC activties coupled with great problem solving capabilities</li>
 								<li>4+ years of Industry experience as a Software Engineer at leading IT services and consulting company</li>
+								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
 								<li>Highly skilled in designing and developing Enterprise Web Applications, Web Services, Batch Processing and Data Modeling</li>
 								{/* <li>Well versed in end to end software development life cycle activities like Data Modeling, Unit/Functional Testing, Security, API, Version Control System</li> */}
-						</ul>
+							</ul>
 						</h5>
+					</div>
+					<div class="pt-5">
+						<h4>Tech Stack: Java, Python, Spring Boot, Spring MVC, SQL, REST API's, JSP, HTML5, CSS3, JavaScript, jQuery, ReactJS</h4>
 					</div>
 				</div>
 				
