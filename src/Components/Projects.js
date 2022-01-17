@@ -5,10 +5,10 @@ import ProjectsCard from '../Components/Generic/ProjectsCard';
 import WEBAPP_IMAGE from '../Images/WebApp.png';
 
 const PROJECTS = {
+	'inventory_tracking_system': ['Inventory Tracking System', WEBAPP_IMAGE, 'Enterprise Web Application', 'https://github.com/karthik-cm/Inventory-Tracking-System'],
 	'weather_app': ['Weather App', WEBAPP_IMAGE, 'Web Application', 'https://github.com/karthik-cm/Weather-App'],
-	'music_store': ['The Music Store', WEBAPP_IMAGE, 'Spring MVC Application', 'https://github.com/karthik-cm/The-Music-Store']
+	'music_store': ['The Music Store', WEBAPP_IMAGE, 'Web Application', 'https://github.com/karthik-cm/The-Music-Store']
 }
-
 
 
 
@@ -21,6 +21,16 @@ const Projects = () => {
 
 			{/* PROJECTS */}
 			<div className="projects">
+				<div>
+					<ProjectsCard 
+						title={PROJECTS.inventory_tracking_system[0]} 
+						image_url={PROJECTS.inventory_tracking_system[1]} 
+						body={PROJECTS.inventory_tracking_system[2]} 
+						link={PROJECTS.inventory_tracking_system[3]}>
+					</ProjectsCard>
+				</div>
+
+				<div className="gap"></div>
 				<div>
 					<ProjectsCard 
 						title={PROJECTS.weather_app[0]} 

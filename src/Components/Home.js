@@ -4,11 +4,10 @@ import '../CSS/Home.css';
 import ReactTyped from 'react-typed';
 
 import { SocialIcon } from 'react-social-icons';
-import { Link } from 'react-scroll';
 
 
 // Constants
-const AREAS_OF_INTEREST = ["A Java Geek", "Full Stack Development", "Web Design", "Web Development", "Game Development"];
+const AREAS_OF_INTEREST = ["A Geeky Programmer", "Sotware Development", "Full Stack Development", "Web Design & Development", "Game Development"];
 const RESUME_URL = 'https://drive.google.com/file/d/1ZtsnbiKAJGaK2sTXWa7dGwSRXWzmVSNg/view';
 
 
@@ -16,7 +15,9 @@ const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
-				<h2>Actively looking for SWE Internships starting Spring/Summer 2022</h2>
+				<h2 style={ {color: 'aqua'} }>Eat( ) {'>'} Code( ) {'>'} Sleep( ) {'>'} Repeat( )</h2>
+
+				{/* <h2>Actively looking for Summer 2022 Internships</h2> */}
 
 				{/* Typed Text Effect */}
 				<ReactTyped 

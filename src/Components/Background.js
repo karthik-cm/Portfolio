@@ -25,7 +25,7 @@ const background = (props) => (
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h4>
-                <p>Coursework: Computer Architecture</p>
+                <p>Coursework: Advanced Databases Systems, Web Architecture and Protocols</p>
                 <p>Web Developer Intern at University Marketing and Communications team </p>
             </VerticalTimelineElement>
 
@@ -39,8 +39,8 @@ const background = (props) => (
             >
                 <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h4>
-                <p>End to end design & development of Web app for 'HDFC Life Insurance' </p>
-                <p>Tech Stack: JAVA, Spring Framework (MVC/Batch/REST), Oracle PL/SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap</p>
+                <p>End to end Design & Development of Web portal for an Insurance project </p>
+                <p>Tech Stack: Java 8, Spring MVC, Spting Batch, Spring REST, Oracle SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement

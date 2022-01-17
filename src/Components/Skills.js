@@ -22,6 +22,7 @@ import BOOTSTRAP_LOGO_URL from '../Logos/Skills/bootstrap.svg';
 import JQUERY_LOGO_URL from '../Logos/Skills/jquery.svg';
 import REACTJS_LOGO_URL from '../Logos/Skills/reactjs.svg';
 
+import JSON_LOGO_URL from '../Logos/Skills/json.png';
 import GIT_LOGO_URL from '../Logos/Skills/git.svg';
 import SELENIUM_LOGO_URL from '../Logos/Skills/selenium.svg';
 
@@ -35,7 +36,7 @@ const PROG_SKILLS = {
 };
 
 const DB_SKILLS = {
-	'oraclesql': ['Oracle PL/SQL', ORACLE_LOGO_URL],
+	'oraclesql': ['Oracle SQL', ORACLE_LOGO_URL],
 	'mysql': ['MySQL', MYSQL_LOGO_URL],
 	'sqlite': ['SQLite', SQLLITE_LOGO_URL]
 };
@@ -54,6 +55,7 @@ const WEB_SKILLS = {
 };
 
 const OTHER_SKILLS = {
+	'json': ['Json', JSON_LOGO_URL],
 	'git': ['Git', GIT_LOGO_URL],
 	'selenium': ['Selenium', SELENIUM_LOGO_URL]
 }
@@ -78,12 +80,12 @@ const Skills = () => {
 
 				<div className="gap"></div>
 				<div>
-					<SkillsCard title={PROG_SKILLS.javascript[0]} image_url={PROG_SKILLS.javascript[1]}></SkillsCard>
+					<SkillsCard title={PROG_SKILLS.python[0]} image_url={PROG_SKILLS.python[1]}></SkillsCard>
 				</div>
 
 				<div className="gap"></div>
 				<div>
-					<SkillsCard title={PROG_SKILLS.python[0]} image_url={PROG_SKILLS.python[1]}></SkillsCard>
+					<SkillsCard title={PROG_SKILLS.javascript[0]} image_url={PROG_SKILLS.javascript[1]}></SkillsCard>
 				</div>
 
 				<div className="gap"></div>
@@ -100,14 +102,14 @@ const Skills = () => {
 			</div>
 			<div className="databases-skills pt-3">
 				<div>
-					<SkillsCard title={DB_SKILLS.oraclesql[0]} image_url={DB_SKILLS.oraclesql[1]}></SkillsCard>
+					<SkillsCard title={DB_SKILLS.mysql[0]} image_url={DB_SKILLS.mysql[1]}></SkillsCard>
 				</div>
 
 				<div className="gap"></div>
 				<div>
-					<SkillsCard title={DB_SKILLS.mysql[0]} image_url={DB_SKILLS.mysql[1]}></SkillsCard>
+					<SkillsCard title={DB_SKILLS.oraclesql[0]} image_url={DB_SKILLS.oraclesql[1]}></SkillsCard>
 				</div>
-
+				
 				<div className="gap"></div>
 				<div>
 					<SkillsCard title={DB_SKILLS.sqlite[0]} image_url={DB_SKILLS.sqlite[1]}></SkillsCard>
@@ -170,6 +172,11 @@ const Skills = () => {
 				<h3>Other Technologies</h3>
 			</div>
 			<div className="other-technologies-skills pt-3">
+				{/* <div>
+					<SkillsCard title={OTHER_SKILLS.json[0]} image_url={OTHER_SKILLS.json[1]}></SkillsCard>
+				</div> */}
+
+				<div className="gap"></div>
 				<div>
 					<SkillsCard title={OTHER_SKILLS.git[0]} image_url={OTHER_SKILLS.git[1]}></SkillsCard>
 				</div>
