@@ -17,7 +17,8 @@ const AboutMe = () => {
 				</div>
 
 				<div className="about-me-main row pt-4">
-					<h2 className="fw-bold name">KARTHIK CM</h2>
+					{/* <h2 className="fw-bold name">KARTHIK CM</h2> */}
+					<h2 className="fw-bold name">Karthik Cheernalli Manjunath</h2>
 					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
 					<h4 className="fw-bold pt-2 name">Actively looking for Summer 2022 Internships</h4>
 				</div>
