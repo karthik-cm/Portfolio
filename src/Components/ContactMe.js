@@ -34,7 +34,7 @@ const ContactMe = () => {
 
 	
 	
-	// Send Email
+	// Send Email - https://www.emailjs.com/
 	const serviceID = "service_ID";
 	const templateID = "template_ID";
 	const userID = "user_InuEX6nkMo4QBdXcDOe1a";
@@ -45,7 +45,7 @@ const ContactMe = () => {
 			.then(() => {
 				setSuccessMessage("Message received! I'll reach out to you as soon as possible");
 			})
-			.catch(error => console.error(`Something went wrong : ${error}`));
+			.catch(error => console.error(`Something went wrong : ${error.text}`));
 		
 		// emailjs.send(serviceID, templateID, params, userID)
 		// 	.then(() => {

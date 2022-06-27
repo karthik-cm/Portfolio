@@ -7,17 +7,17 @@ import { SocialIcon } from 'react-social-icons';
 
 
 // Constants
-const AREAS_OF_INTEREST = ["A Geeky Programmer", "Sotware Development", "Full Stack Development", "Web Design and Development", "Game Development"];
-const RESUME_URL = 'https://drive.google.com/file/d/10C8uPDcH2KMiAnico4Zs9Xtqkc7Sp7aI/view';
+const AREAS_OF_INTEREST = ["Tech Enthusiast", "A Programmer", "Sotware Development", "Full Stack Development", "Web Design and Development", "Game Development"];
+const RESUME_URL = 'https://drive.google.com/file/d/1bWBv2epAC7bUlQyDTlCSDWC8BI6wdQBZ/view';
 
 
 const Home = () => {
 	return (
 		<div id="home" className="Intro container-fluid intro-wrapper">
 			<div className="intro-info">
+				{/* <h1 style={ {color: 'white', paddingBottom: '15px'} }>Hey there! I'm Karthik</h1> */}
+				
 				<h2 style={ {color: 'aqua'} }>Eat( ) {'>'} Code( ) {'>'} Sleep( ) {'>'} Repeat( )</h2>
-
-				{/* <h2>Actively looking for Summer 2022 Internships</h2> */}
 
 				{/* Typed Text Effect */}
 				<ReactTyped 

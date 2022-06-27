@@ -5,9 +5,10 @@ import ProjectsCard from '../Components/Generic/ProjectsCard';
 import WEBAPP_IMAGE from '../Images/WebApp.png';
 
 const PROJECTS = {
-	'inventory_tracking_system': ['Inventory Tracking System', WEBAPP_IMAGE, 'Enterprise Web Application', 'https://github.com/karthik-cm/Inventory-Tracking-System'],
-	'weather_app': ['Weather App', WEBAPP_IMAGE, 'Web Application', 'https://github.com/karthik-cm/Weather-App'],
-	'music_store': ['The Music Store', WEBAPP_IMAGE, 'Web Application', 'https://github.com/karthik-cm/The-Music-Store']
+	'waas': ['Workflow as a Service', WEBAPP_IMAGE, 'Platform as a Service', 'https://github.com/ccfernandes/workflow-as-a-service'],
+	'its': ['Inventory Tracking System', WEBAPP_IMAGE, 'Enterprise Web Application', 'https://github.com/karthik-cm/Inventory-Tracking-System'],
+	'wa': ['Weather App', WEBAPP_IMAGE, 'Web Application', 'https://github.com/karthik-cm/Weather-App'],
+	'ms': ['The Music Store', WEBAPP_IMAGE, 'Web Application', 'https://github.com/karthik-cm/The-Music-Store']
 }
 
 
@@ -23,30 +24,43 @@ const Projects = () => {
 			<div className="projects">
 				<div>
 					<ProjectsCard 
-						title={PROJECTS.inventory_tracking_system[0]} 
-						image_url={PROJECTS.inventory_tracking_system[1]} 
-						body={PROJECTS.inventory_tracking_system[2]} 
-						link={PROJECTS.inventory_tracking_system[3]}>
+						title={PROJECTS.waas[0]} 
+						image_url={PROJECTS.waas[1]} 
+						body={PROJECTS.waas[2]} 
+						link={PROJECTS.waas[3]}>
 					</ProjectsCard>
 				</div>
 
 				<div className="gap"></div>
+
 				<div>
 					<ProjectsCard 
-						title={PROJECTS.weather_app[0]} 
-						image_url={PROJECTS.weather_app[1]} 
-						body={PROJECTS.weather_app[2]} 
-						link={PROJECTS.weather_app[3]}>
+						title={PROJECTS.its[0]} 
+						image_url={PROJECTS.its[1]} 
+						body={PROJECTS.its[2]} 
+						link={PROJECTS.its[3]}>
 					</ProjectsCard>
 				</div>
 
 				<div className="gap"></div>
+
 				<div>
 					<ProjectsCard 
-						title={PROJECTS.music_store[0]} 
-						image_url={PROJECTS.music_store[1]} 
-						body={PROJECTS.music_store[2]} 
-						link={PROJECTS.music_store[3]}>
+						title={PROJECTS.wa[0]} 
+						image_url={PROJECTS.wa[1]} 
+						body={PROJECTS.wa[2]} 
+						link={PROJECTS.wa[3]}>
+					</ProjectsCard>
+				</div>
+
+				<div className="gap"></div>
+
+				<div>
+					<ProjectsCard 
+						title={PROJECTS.ms[0]} 
+						image_url={PROJECTS.ms[1]} 
+						body={PROJECTS.ms[2]} 
+						link={PROJECTS.ms[3]}>
 					</ProjectsCard>
 				</div>
 			</div>

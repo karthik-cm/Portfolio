@@ -20,7 +20,7 @@ const AboutMe = () => {
 					{/* <h2 className="fw-bold name">KARTHIK CM</h2> */}
 					<h2 className="fw-bold name">Karthik Cheernalli Manjunath</h2>
 					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
-					<h4 className="fw-bold pt-2 name">Actively looking for Summer 2022 Internships</h4>
+					<h4 className="fw-bold pt-2 name">Actively looking for full time SWE opportunities starting Dec '22</h4>
 				</div>
 
 
@@ -28,19 +28,24 @@ const AboutMe = () => {
 					<div className="col-md-12 col-xs-12 pt-5">
 						<h5>
 							<ul>
-								<li>Highly motivated, Result driven Software Professional coupled with robust problem solving capabilities</li>
-								<li>4+ years of Industry experience as a Software Engineer at leading multinational IT services and consulting company</li>
+								<li>A tech enthusiast who loves to solve real world problems using cutting-edge technologies and tools</li>
+								<li>4+ years of industry experience as a Software Engineer in Full Stack Development domain</li>
 								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
-								<li>Highly skilled in designing and developing Enterprise Web Applications, Web Services, Batch Processing and Data Modeling</li>
-								{/* <li>Well versed in end to end software development life cycle activities like Data Modeling, Unit/Functional Testing, Security, API, Version Control System</li> */}
+								<li>Highly skilled in design and development of Enterprise Web Applications, Web Services, Batch Processing and Data Modeling</li>
+								{/* <li>Well versed in end to end software development life cycle (SDLC) activities like Agile, Design, Data Modeling, Development, Unit/Functional Testing, Security, API, Version Control System</li> */}
 							</ul>
 						</h5>
 					</div>
-					<div class="pt-5">
-						<h4>Tech Stack: Java, Python, Spring Boot, Spring MVC, SQL, REST API's, JSP, HTML5, CSS3, JavaScript, jQuery, ReactJS</h4>
+				</div>
+
+				<div className="about-me-sub">
+					<div className="col-md-12 col-xs-12 pt-5">
+						<h5>Programming Languages: C, C++, Java, Python, JavaScript, SQL</h5>
+						<h5>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, Node.js, React JS</h5>
+						<h5>Databases and Cloud: MySQL, Oracle SQL, SQLite, MongoDB, AWS, EC2, DynamoDB, Docker, OpenFaaS, Kubernetes</h5>
+						<h5>Other: Spring Boot, Spring MVC, Hibernate, Java EE, REST APIs, JSP, Git, Maven, JUnit, TestNG, XML, JSON, Microservices</h5>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	)
