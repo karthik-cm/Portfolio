@@ -20,13 +20,14 @@ const AboutMe = () => {
 					{/* <h2 className="fw-bold name">KARTHIK CM</h2> */}
 					<h2 className="fw-bold name">Karthik Cheernalli Manjunath</h2>
 					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
-					<h4 className="fw-bold pt-2 name">Actively looking for full time SWE opportunities starting Dec '22</h4>
+					<h4 className="fw-bold pt-4 name">Actively looking for full time SWE opportunities starting Dec '22</h4>
 				</div>
 
 
 				<div className="about-me-sub">
 					<div className="col-md-12 col-xs-12 pt-5">
 						<h5>
+							<p>Summary:</p>
 							<ul>
 								<li>A tech enthusiast who loves to solve real world problems using cutting-edge technologies and tools</li>
 								<li>4+ years of industry experience as a Software Engineer in Full Stack Development domain</li>
@@ -36,16 +37,20 @@ const AboutMe = () => {
 							</ul>
 						</h5>
 					</div>
-				</div>
 
-				<div className="about-me-sub">
-					<div className="col-md-12 col-xs-12 pt-5">
-						<h5>Programming Languages: C, C++, Java, Python, JavaScript, SQL</h5>
-						<h5>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, Node.js, React JS</h5>
-						<h5>Databases and Cloud: MySQL, Oracle SQL, SQLite, MongoDB, AWS, EC2, DynamoDB, Docker, OpenFaaS, Kubernetes</h5>
-						<h5>Other: Spring Boot, Spring MVC, Hibernate, Java EE, REST APIs, JSP, Git, Maven, JUnit, TestNG, XML, JSON, Microservices</h5>
+					<div className="col-md-12 col-xs-12 pt-4">
+						<h5>
+							<p className="underline">Technical Skills:</p>
+							<ul>
+								<li>Programming Languages: C, C++, Java, Python, JavaScript, SQL</li>
+								<li>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, Node.js, React JS</li>
+								<li>Databases and Cloud: MySQL, Oracle SQL, SQLite, MongoDB, AWS, EC2, DynamoDB, Docker, OpenFaaS, Kubernetes</li>
+								<li>Other: Spring Boot, Spring MVC, Hibernate, Java EE, REST APIs, JSP, Git, Maven, JUnit, TestNG, XML, JSON, Microservices</li>
+							</ul>
+						</h5>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	)

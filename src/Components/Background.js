@@ -25,7 +25,7 @@ const background = (props) => (
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h4>
-                <p>Coursework: Advanced Databases Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems</p>
+                <p>Coursework: Computer Architecture, Computer Networks, Advanced Databases Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems</p>
                 <p>Activities: Web Developer Intern at University Marketing and Communications team </p>
             </VerticalTimelineElement>
 
