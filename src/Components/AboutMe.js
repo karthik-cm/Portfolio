@@ -49,6 +49,17 @@ const AboutMe = () => {
 							</ul>
 						</h5>
 					</div>
+
+					<div className="col-md-12 col-xs-12 pt-4">
+						<h5>
+							<p className="underline">Areas of Interests:</p>
+							<ul>
+								<li>Software Development - Full Stack / Back End / Fron End</li>
+								<li>Game Devlopment</li>
+							</ul>
+						</h5>
+					</div>
+
 				</div>
 
 			</div>
