@@ -25,8 +25,8 @@ const background = (props) => (
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h4>
-                <p>Coursework: Computer Architecture, Computer Networks, Advanced Databases Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems</p>
-                <p>Activities: Web Developer Intern at University Marketing and Communications team </p>
+                <p>Coursework: Computer Architecture, Computer Networks, Advanced Database Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems</p>
+                <p>Activities: Web Developer Intern at University Marketing and Communications team (Jul '21 to Jun '22)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -39,8 +39,8 @@ const background = (props) => (
             >
                 <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h4>
-                <p>End to end Design & Development of Web portal for an Insurance project </p>
-                <p>Tech Stack: Java, Spring MVC, Spring Batch, Spring REST, Oracle SQL, JSP, JavaScript, jQuery, HTML5, CSS3, Bootstrap</p>
+                <p>End to end Design and Development of Inusrance web portal and associated backend services </p>
+                <p>Tech Stack: Java, Spring MVC, Spring Batch, Spring REST, Oracle SQL, JSP, HTML5, CSS3, Bootstrap, JavaScript, jQuery</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -53,8 +53,8 @@ const background = (props) => (
             >
                 <h3 className="vertical-timeline-element-title">B.E in Information Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University, INDIA</h4>
-                <p>Coursework: Design and Analysis of Algorithms, Data Structures with C, Database Management Systems, JAVA and J2EE, Programming the Web</p>
-                <p>Activities: Volunteer and member of organizing committee for the College annual fest</p>
+                <p>Coursework: Operating Systems, Data Structures with C, Design and Analysis of Algorithms, Database Management Systems, JAVA and J2EE, Object Oriented Modeling and Design, Unix and Shell Programming, Programming the Web</p>
+                <p>Activities: Volunteer and member of organizing committee for the College annual fest 'Cultura'</p>
             </VerticalTimelineElement>
         </VerticalTimeline>
     </div>
