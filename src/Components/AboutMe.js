@@ -20,7 +20,7 @@ const AboutMe = () => {
 					{/* <h2 className="fw-bold name">KARTHIK CM</h2> */}
 					<h2 className="fw-bold name">Karthik Cheernalli Manjunath</h2>
 					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
-					<h4 className="fw-bold pt-4 name">Actively looking for full time SWE opportunities starting Mar '22</h4>
+					<h4 className="fw-bold pt-4 name">Actively looking for full time SWE opportunities starting Jan '23</h4>
 				</div>
 
 
