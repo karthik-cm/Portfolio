@@ -18,36 +18,51 @@ const background = (props) => (
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
-                date="2021 - 2023"
+                date="Expected Mar 2023"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
                 // icon={<WorkIcon />}
             >
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
                 <h4 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h4>
-                <p>Coursework: Computer Architecture, Computer Networks, Advanced Database Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems</p>
-                <p>Activities: Web Developer Intern at University Marketing and Communications team (Jul '21 to Jun '22)</p>
+                <p>Coursework: Computer Architecture, Computer Networks, Advanced Database Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems, Advanced Web Programming, Design Patterns</p>
+                <p>Activities: Web Developer Intern at Santa Clara University - Marketing and Communications team (Jul '21 to Jun '22)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
-                date="2016 - 2020"
+                date="Jun 2022 - Sep 2022"
+                iconStyle={{ background: '#000', color: '#fff', display:'block' }}
+                // icon={<WorkIcon />}
+            >
+                {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
+                <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
+                <h4 className="vertical-timeline-element-subtitle">Guidewire, U.S.A</h4>
+                <p>Background: Worked under Analytics and Data Services R&D team to develop Embedded Analytics Framework as part Summer 2022 Internship</p>
+                <p>Tech Stack: Java, Apache Camel, ReactJS, AWS DynamoDB</p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+                className="vertical-timeline-element"
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
+                date="Dec 2016 - Sep 2020"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
                 // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h4>
-                <p>End to end Design and Development of Inusrance web portal and associated backend services </p>
-                <p>Tech Stack: Java, Spring MVC, Spring Batch, Spring REST, Oracle SQL, JSP, HTML5, CSS3, Bootstrap, JavaScript, jQuery</p>
+                <p>End to end design and development of Inusrance web application and associated backend services </p>
+                <p>Tech Stack: Java, Spring MVC, Spring Batch, Spring REST, Oracle SQL, JSP, HTML5, CSS3, Bootstrap, JavaScript, jQuery, ReactJS</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
-                date="2012 - 2016"
+                date="Sep 2012 - Jun 2016"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
                 // icon={<WorkIcon />} f9ab00
             >
