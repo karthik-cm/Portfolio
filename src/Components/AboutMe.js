@@ -33,7 +33,8 @@ const AboutMe = () => {
 								<li>4+ years of solid work experience as a Software Engineer (Java Full Stack)</li>
 								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
 								<li>Highly skilled in design and development of Enterprise Web Applications, RESTful Web Services, Batch Processing and Data Modeling</li>
-								<li>Well versed in end to end Software Development Life Cycle (SDLC) activities like Design, Development, Data Modeling, Unit/Functional Testing, Security, API, Version Control System, Agile</li>
+								<li>Well versed in end to end Software Development Life Cycle (SDLC) activities like Design, Development, Data Modeling, Unit/Functional 
+									<br/> Testing, Security, API, Version Control System, Agile</li>
 							</ul>
 						</h5>
 					</div>
@@ -46,7 +47,8 @@ const AboutMe = () => {
 								<li>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, Node.js, ReactJS</li>
 								<li>Databases: MySQL, Oracle SQL, SQLite, MongoDB, AWS DynamoDB</li>
 								<li>Cloud: AWS, EC2, Docker, Kubernetes, OpenFaaS</li>
-								<li>Other: Spring Framework (Boot / MVC / JPA), Hibernate, Java EE, Apache Camel, REST APIs, JSP, Git, JUnit, TestNG, Microservices, Amazon Web Services, Agile </li>
+								<li>Other: Spring Framework (Boot / MVC / JPA), Hibernate, Java EE, Apache Camel, REST APIs, JSP, 
+										<br/> Git, JUnit, TestNG, Microservices, Amazon Web Services, Agile </li>
 							</ul>
 						</h5>
 					</div>
