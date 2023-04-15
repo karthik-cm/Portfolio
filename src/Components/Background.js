@@ -18,13 +18,13 @@ const background = (props) => (
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
-                date="Expected Mar 2023"
+                date="Mar 2021 - Mar 2023"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
                 // icon={<WorkIcon />}
             >
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
-                <h4 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h4>
+                <h5 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h5>
                 <p>Coursework: Computer Architecture, Computer Networks, Advanced Database Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems, Advanced Web Programming, Design Patterns</p>
                 <p>Activities: Web Developer Intern at Santa Clara University - Marketing and Communications team (Jul '21 to Jun '22)</p>
             </VerticalTimelineElement>
@@ -39,9 +39,9 @@ const background = (props) => (
             >
                 {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
                 <h3 className="vertical-timeline-element-title">Software Engineer Intern</h3>
-                <h4 className="vertical-timeline-element-subtitle">Guidewire, U.S.A</h4>
+                <h5 className="vertical-timeline-element-subtitle">Guidewire, U.S.A</h5>
                 <p>Summer 2022 Internship: Worked under Analytics and Data Services R&D team to develop Embedded Analytics Framework</p>
-                <p>Tech Stack: Java, Apache Camel, ReactJS, AWS DynamoDB</p>
+                <p>Tech Stack: Java, Apache Camel, ReactJS, AWS, AWS DynamoDB</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -53,9 +53,9 @@ const background = (props) => (
                 // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Software Engineer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h4>
+                <h5 className="vertical-timeline-element-subtitle">Tata Consultancy Services, INDIA</h5>
                 <p>Worked for an Insurance project in design and development of Progrssive Web Application and its associated Backend services </p>
-                <p>Tech Stack: Java, Spring MVC, Spring Batch, Spring REST, Oracle SQL, JSP, HTML5, CSS3, Bootstrap, JavaScript, jQuery, ReactJS</p>
+                <p>Tech Stack: Java, Spring MVC/Boot/Batch, Oracle SQL, JSP, HTML5, CSS3, Bootstrap, JavaScript, jQuery, ReactJS, AWS</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
@@ -67,7 +67,7 @@ const background = (props) => (
                 // icon={<WorkIcon />} f9ab00
             >
                 <h3 className="vertical-timeline-element-title">B.E in Information Science</h3>
-                <h4 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University, INDIA</h4>
+                <h5 className="vertical-timeline-element-subtitle">Visvesvaraya Technological University, INDIA</h5>
                 <p>Coursework: Operating Systems, Data Structures with C, Design and Analysis of Algorithms, Database Management Systems, JAVA and J2EE, Object Oriented Modeling and Design, Unix and Shell Programming, Programming the Web</p>
                 <p>Activities: Volunteer and member of organizing committee for the College annual fest 'Cultura'</p>
             </VerticalTimelineElement>

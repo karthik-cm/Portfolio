@@ -29,7 +29,7 @@ const AboutMe = () => {
 						<h5>
 							<p>Summary:</p>
 							<ul>
-								<li>A tech enthusiast who loves to solve real world problems using cutting-edge technologies and tools</li>
+								<li>Tech Enthusiast who loves to solve real world problems using cutting-edge tech and tools</li>
 								<li>4+ years of solid work experience as a Software Engineer (Java Full Stack)</li>
 								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
 								<li>Highly skilled in design and development of Enterprise Web Applications, RESTful Web Services, Batch Processing and Data Modeling</li>
@@ -46,8 +46,8 @@ const AboutMe = () => {
 								<li>Programming Languages: Java, Python, JavaScript, SQL</li>
 								<li>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, Node.js, ReactJS</li>
 								<li>Databases: MySQL, Oracle SQL, SQLite, MongoDB, AWS DynamoDB</li>
-								<li>Cloud: AWS, EC2, Docker, Kubernetes, OpenFaaS</li>
-								<li>Other: Spring Framework (Boot / MVC / JPA), Hibernate, Java EE, Apache Camel, REST APIs, JSP, 
+								<li>Cloud: AWS, EC2, OpenFaas, Docker, Kubernetes </li>
+								<li>Other: Spring Framework  (MVC/Boot/JPA), Hibernate, Java EE, ORM, Apache Camel, REST APIs, JSP, 
 										<br/> Git, JUnit, TestNG, Microservices, Amazon Web Services, Agile </li>
 							</ul>
 						</h5>
@@ -63,6 +63,14 @@ const AboutMe = () => {
 						</h5>
 					</div>
 
+					<div className="col-md-12 col-xs-12 pt-4">
+						<h5>
+							<p className="underline">Email:</p>
+							<ul>
+								<li>karthikcmanjunath@gmail.com</li>
+							</ul>
+						</h5>
+					</div>
 				</div>
 
 			</div>

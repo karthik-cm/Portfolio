@@ -19,11 +19,11 @@
 
 
 /* Programming Section */
-.programming, .databases, .frameworks, .web-technologies, .other-technologies {
+.programming, .databases, .frameworks, .web-technologies, .other-technologies, .cloud-technologies {
     color: #fff;
 }
 
-.programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills {
+.programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills, .cloud-technologies-skills {
 	display: flex;
 	flex-direction: row;
 }
@@ -41,7 +41,7 @@
 		height: 5rem;
 	}
 
-	.programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills {
+	.programming-skills, .databases-skills, .frameworks-skills, .web-technologies-skills, .other-technologies-skills, .cloud-technologies-skills {
 		flex-direction: column;
 	}
 

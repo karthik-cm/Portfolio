@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons';
 
 
 // Constants
-const AREAS_OF_INTEREST = ["Tech Enthusiast", "Problem Solving", "Sotware Development", "Full Stack Development", "Back End Development", "Front End Development", "Web Design and Development", "Game Development"];
+const AREAS_OF_INTEREST = ["Sotware Development", "Problem Solving", "Full Stack Development", "Back End Development", "Front End Development"];
 const RESUME_URL = 'https://drive.google.com/file/d/17hPYd759DLd0GLRBlcBmt7FZzaQfhEke/view';
 
 
