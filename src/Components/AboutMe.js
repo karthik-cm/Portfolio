@@ -19,8 +19,8 @@ const AboutMe = () => {
 				<div className="about-me-main row pt-4">
 					{/* <h2 className="fw-bold name">KARTHIK CM</h2> */}
 					<h2 className="fw-bold name">Karthik Cheernalli Manjunath</h2>
-					<h4 className="fw-bold">Computer Science Graduate Student at Santa Clara University</h4>
-					<h4 className="fw-bold pt-4 name">Actively looking for Software Engineer positions starting Mar '23</h4>
+					<h4 className="fw-bold">Software Dev Engineer II at Yahoo | MSCS at SCU</h4>
+					{/* <h4 className="fw-bold pt-4 name">Actively looking for Software Engineer positions starting Mar '23</h4> */}
 				</div>
 
 
@@ -44,7 +44,7 @@ const AboutMe = () => {
 							<p className="underline">Technical Skills:</p>
 							<ul>
 								<li>Programming Languages: Java, Python, JavaScript, SQL</li>
-								<li>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, Node.js, ReactJS</li>
+								<li>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, ReactJS</li>
 								<li>Databases: MySQL, Oracle SQL, SQLite, MongoDB, AWS DynamoDB</li>
 								<li>Cloud: AWS, EC2, OpenFaas, Docker, Kubernetes </li>
 								<li>Other: Spring Framework  (MVC/Boot/JPA), Hibernate, Java EE, ORM, Apache Camel, REST APIs, JSP, 

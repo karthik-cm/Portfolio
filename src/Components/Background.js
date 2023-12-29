@@ -18,6 +18,18 @@ const background = (props) => (
                 className="vertical-timeline-element"
                 contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
+                date="May 2023 - Present"
+                iconStyle={{ background: '#000', color: '#fff', display:'block' }}
+                // icon={<WorkIcon />}
+            >
+                {/* <FontAwesomeIcon icon={faGraduationCap} /> */}
+                <h3 className="vertical-timeline-element-title">Software Dev Engineer II</h3>
+                <h5 className="vertical-timeline-element-subtitle">Yahoo, U.S.A</h5>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element"
+                contentStyle={{ background: 'transparent', color: '#fff', border:'2px solid #fff' }}
+                contentArrowStyle={{ borderRight: '7px solid #f9ab00' }}
                 date="Mar 2021 - Mar 2023"
                 iconStyle={{ background: '#000', color: '#fff', display:'block' }}
                 // icon={<WorkIcon />}
@@ -26,7 +38,7 @@ const background = (props) => (
                 <h3 className="vertical-timeline-element-title">M.S in Computer Science</h3>
                 <h5 className="vertical-timeline-element-subtitle">Santa Clara University, U.S.A</h5>
                 <p>Coursework: Computer Architecture, Computer Networks, Advanced Database Systems, Web Architecture and Protocols, Cloud Computing, Distributed Systems, Advanced Web Programming, Design Patterns</p>
-                <p>Activities: Web Developer Intern at Santa Clara University - Marketing and Communications team (Jul '21 to Jun '22)</p>
+                <p>Activities: Web Developer Intern at Santa Clara University (Jul '21 to Jun '22)</p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
