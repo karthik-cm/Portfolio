@@ -18,7 +18,7 @@ const AboutMe = () => {
 
 				<div className="about-me-main row pt-4">
 					{/* <h2 className="fw-bold name">KARTHIK CM</h2> */}
-					<h2 className="fw-bold name">Karthik Cheernalli Manjunath</h2>
+					<h2 className="fw-bold">Karthik CM </h2>
 					<h4 className="fw-bold">Software Dev Engineer II at Yahoo | MSCS at SCU</h4>
 					{/* <h4 className="fw-bold pt-4 name">Actively looking for Software Engineer positions starting Mar '23</h4> */}
 				</div>
@@ -29,12 +29,12 @@ const AboutMe = () => {
 						<h5>
 							<p>Summary:</p>
 							<ul>
-								<li>Tech Enthusiast who loves to solve real world problems using cutting-edge tech and tools</li>
-								<li>4+ years of solid work experience as a Software Engineer (Java Full Stack)</li>
+								<li>Tech enthusiast who loves to solve real world problems</li>
+								<li>5+ years of work experience as a Software Engineer (Full Stack)</li>
 								<li>Strong understanding and relevant applicability of Data Structures and Algorithms</li>
 								<li>Highly skilled in design and development of Enterprise Web Applications, RESTful Web Services, Batch Processing and Data Modeling</li>
-								<li>Well versed in end to end Software Development Life Cycle (SDLC) activities like Design, Development, Data Modeling, Unit/Functional 
-									<br/> Testing, Security, API, Version Control System, Agile</li>
+								<li>Well versed in end to end Software Development Life Cycle (SDLC) activities like Design, Development, Data Modeling, 
+										Unit/Functional Testing, Security, API, Version Control System, Cloud, Agile</li>
 							</ul>
 						</h5>
 					</div>
@@ -45,10 +45,10 @@ const AboutMe = () => {
 							<ul>
 								<li>Programming Languages: Java, Python, JavaScript, SQL</li>
 								<li>Web Technologies: HTML5, CSS3, Bootstrap, jQuery, AJAX, PHP, ReactJS</li>
-								<li>Databases: MySQL, Oracle SQL, SQLite, MongoDB, AWS DynamoDB</li>
-								<li>Cloud: AWS, EC2, OpenFaas, Docker, Kubernetes </li>
-								<li>Other: Spring Framework  (MVC/Boot/JPA), Hibernate, Java EE, ORM, Apache Camel, REST APIs, JSP, 
-										<br/> Git, JUnit, TestNG, Microservices, Amazon Web Services, Agile </li>
+								<li>Databases: MySQL, Oracle SQL, SQLite, MongoDB</li>
+								<li>Cloud: AWS, EC2, ECR, ECS Fargate, DynamoDB </li>
+								<li>Other: Spring Framework, Hibernate, Java EE, Apache Camel, REST APIs, JSP, Git, JUnit5, Mockito, TestNG, 
+											Microservices, Amazon Web Services, Docker, Kubernetes, IaC, Agile </li>
 							</ul>
 						</h5>
 					</div>

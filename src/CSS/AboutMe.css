@@ -15,8 +15,8 @@
 
 /*** Profile Image ***/
 .profile-img {
-	width: 18rem;
-	border-radius: 50%;
+	width: 25rem;
+	/* border-radius: 50%; */
 	padding: 0.2rem;
 	border: 3px solid var(--primary-orange);
 }
